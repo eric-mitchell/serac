@@ -1,0 +1,21 @@
+# @package _global_
+
+alg: rep
+lr: 1e-5
+train_base: False
+lr_lr: 0.0
+rep:
+  cls_name: distilbert-base-cased
+  cls_class: AutoModel
+  supervised: true
+  cos: false
+  freeze: null
+  square: true
+  bound_embeds: false
+  use_all_negatives: false
+  freeze_cntr: false
+  dist_heads: 1
+  cross_attend: false
+  lora: null
+  soft_weighting: false
+  checkpoint_grad: false

@@ -1,0 +1,15 @@
+name: facebook/blenderbot_small-90M
+class_name: BlenderbotSmallForConditionalGeneration
+tokenizer_class: BlenderbotSmallTokenizer
+tokenizer_name: facebook/blenderbot_small-90M
+inner_params:
+- model.encoder.layers.6.fc1.weight
+- model.encoder.layers.6.fc2.weight
+- model.encoder.layers.7.fc1.weight
+- model.encoder.layers.7.fc2.weight
+- model.decoder.layers.6.fc1.weight
+- model.decoder.layers.6.fc2.weight
+- model.decoder.layers.7.fc1.weight
+- model.decoder.layers.7.fc2.weight
+
+small_name: facebook/blenderbot_small-90M

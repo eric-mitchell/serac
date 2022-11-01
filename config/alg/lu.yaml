@@ -1,0 +1,7 @@
+# @package _global_
+
+alg: lu
+train_base: False
+lu:
+  threshold: 1
+  onehot_logit: 1
